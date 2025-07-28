@@ -1,7 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+
 export default function Footer() {
   const currentYear = new Date().getFullYear();
+
   return (
     <motion.footer
       className="bg-brand-dark text-white"
@@ -21,6 +23,7 @@ export default function Footer() {
               />
             </a>
           </div>
+
           <div>
             <h3 className="font-bold text-lg mb-4">Navegação</h3>
             <ul className="space-y-2">
@@ -50,6 +53,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
+
           <div>
             <h3 className="font-bold text-lg mb-4">Contato</h3>
             <ul className="space-y-2 text-gray-300">
@@ -59,9 +63,10 @@ export default function Footer() {
             </ul>
           </div>
         </div>
+
         <div className="mt-12 pt-8 border-t border-gray-700 text-center text-gray-400 text-sm">
           <p>&copy; {currentYear} NTC Brasil. Todos os direitos reservados.</p>
-          <p className="mt-2">drenagem com solidez e confiança.</p>
+          <p className="mt-2">Construindo o futuro com solidez e confiança.</p>
         </div>
       </div>
     </motion.footer>
