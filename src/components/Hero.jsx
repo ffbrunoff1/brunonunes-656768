@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, HardHat } from 'lucide-react';
-
 export default function Hero() {
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -13,7 +12,6 @@ export default function Hero() {
       },
     },
   };
-
   const itemVariants = {
     hidden: { y: 20, opacity: 0 },
     visible: {
@@ -25,7 +23,6 @@ export default function Hero() {
       },
     },
   };
-
   return (
     <section
       id="hero"
@@ -54,8 +51,7 @@ export default function Hero() {
               variants={itemVariants}
               className="text-4xl md:text-6xl font-bold text-brand-dark leading-tight"
             >
-              Construindo o Futuro com{' '}
-              <span className="text-brand-blue">Qualidade</span> e{' '}
+              drenagem com <span className="text-brand-blue">Qualidade</span> e{' '}
               <span className="text-brand-blue">Inovação</span>
             </motion.h1>
             <motion.p
